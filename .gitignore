@@ -1,0 +1,5 @@
+env/**
+**.json
+client/build/**
+client/node-modules/**
+.vscode/**
