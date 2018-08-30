@@ -11,14 +11,14 @@
   * `curl -sL https://deb.nodesource.com/setup_8.x && sudo apt install nodejs build-essential`
 
 ## Python Dependencies
-Flask==1.0.2
-Flask-Cors==3.0.4
+* Flask==1.0.2
+* Flask-Cors==3.0.4
 
 ## NPM Dependencies
-npm install -g vue-cli@2.9.3
-npm install axios@0.18.0 --save
-npm install bootstrap@4.1.1 --save
-npm install bootstrap-vue@2.0.0-rc.11 --save
+* npm install -g vue-cli@2.9.3
+* npm install axios@0.18.0 --save
+* npm install bootstrap@4.1.1 --save
+* npm install bootstrap-vue@2.0.0-rc.11 --save
 
 ## Starting up servers
 To start up the frontend, run
