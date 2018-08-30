@@ -20,18 +20,21 @@ npm install axios@0.18.0 --save
 npm install bootstrap@4.1.1 --save
 npm install bootstrap-vue@2.0.0-rc.11 --save
 
+## Starting up servers
+To start up the frontend, run
+```
+cd client && npm run dev
+```
+To start up the backend, run
+```
+cd server && python add.py
+```
+
 ## Resources
 https://testdriven.io/developing-a-single-page-app-with-flask-and-vuejs
 https://www.fullstackpython.com/flask.html
 
 ## Notes
-To start up do the following in one window
-`$ cd client`
-`$ npm run dev`
-Then this in another window
-`$ cd server`
-`$ python app.py`
-
 Everything affecting the app is generally in `client/src`.
 
 To route to new components, update `client/src/router/index.js`. 
