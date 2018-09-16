@@ -1,34 +1,28 @@
 <template>
+  <!-- <div class="hello">
+    <h1>{{ msg }}</h1>
+  </div> -->
   <div class="container">
+    <h1>Ping!</h1>
     <button type="button" class="btn btn-primary">{{ msg }}</button>
   </div>
 </template>
 
 <script>
-import axios from 'axios';
-
 export default {
-  name: 'Ping',
+  name: 'HelloWorld',
   data() {
     return {
-      msg: 'Hello!',
+      msg: 'Welcome to Your Vue.js App',
     };
-  },
-  methods: {
-    getMessage() {
-      const path = 'http://localhost:5000/ping';
-      axios.get(path)
-        .then((res) => {
-          this.msg = res.data;
-        })
-        .catch((error) => {
-          // eslint-disable-next-line
-          console.error(error);
-        });
-    },
-  },
-  created() {
-    this.getMessage();
   },
 };
 </script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+h1, h2 {
+  font-weight: normal;
+  color: #42b983;
+}
+</style>
